@@ -1,0 +1,18 @@
+name: dorm_sembast
+publish_to: none
+description: Sembast database provider for Dorm
+version: 1.0.0
+author: David MARKEY
+
+environment:
+  sdk: ">=2.13.0 <3.0.0"
+
+dependencies:
+  sembast: ">=3.0.2"
+  sembast_web: ">=2.0.0"
+  dorm:
+    path: ../dorm
+
+dev_dependencies:
+  pedantic: ^1.10.0
+  test: ^1.16.0
